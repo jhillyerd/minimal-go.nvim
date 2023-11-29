@@ -13,3 +13,6 @@ if !empty(globpath(&runtimepath, 'autoload/plug.vim'))
   
   lua require('lspconfig')['gopls'].setup({})
 endif
+
+" prevents error
+"let g:loaded_matchparen = 1
